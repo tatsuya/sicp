@@ -5,7 +5,7 @@ import { expect } from 'chai';
 
 import fib from './fib';
 
-describe('fib', () => {
+describe('Fibonacci Numbers', () => {
   it('computes Fibonacci numbers', () => {
     expect(fib(0)).to.equal(0);
     expect(fib(1)).to.equal(1);

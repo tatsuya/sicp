@@ -5,7 +5,7 @@ import { expect } from 'chai';
 
 import sqrt from './sqrt';
 
-describe('sqrt', () => {
+describe('Square Roots', () => {
   it('computes square roots of basic numbers', () => {
     expect(sqrt(2)).to.equal(1.4142135623746899);
     expect(sqrt(3)).to.equal(1.7320508075688772);

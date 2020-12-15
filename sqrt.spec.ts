@@ -3,7 +3,7 @@
 import 'mocha';
 import { expect } from 'chai';
 
-import sqrt from '.';
+import sqrt from './sqrt';
 
 describe('sqrt', () => {
   it('computes square roots of basic numbers', () => {
